@@ -1,0 +1,7 @@
+AuthName "xtramile2k16.com statistics"
+AuthType Basic
+AuthUserFile /home/xtramile2k16/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
